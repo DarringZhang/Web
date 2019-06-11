@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一个网页</title>
+    <script language="JavaScript">
+        function changecolor(color) {
+            document.getElementById("colortable").style.backgroundColor = color;
+        }
+    </script>
+
+</head>
+
+
+
+
+
+<body>
+<table>
+    <tr>
+        <td style="background-color:red;width:30px;" onclick="changecolor('red')">&nbsp;</td>
+        <td style="background-color:green;width:30px;"  onclick="changecolor('green')">&nbsp;</td>
+        <td style="background-color:blue;width:30px;"  onclick="changecolor('blue')">&nbsp;</td>
+        <td style="background-color:yellow;width:30px;"  onclick="changecolor('yellow')">&nbsp;</td>
+    </tr>
+</table>
+<div id="colortable" style="width:300px;height:300px;"></div>
+
+
+</BODY>
+
+
+
+
+
+</html>
